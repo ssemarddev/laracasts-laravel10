@@ -1,0 +1,1721 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.hero-img-icon, .bg-icon-team-member {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.section {
+    position: relative; /* Asegura que las secciones no interfieran con el z-index del menÃº */
+    z-index: 1; /* Asegura que cualquier contenido debajo tenga menor prioridad que el menÃº */
+}
+
+/*Inicia la seccion de los estilos de header*/
+.logos-icon {
+    width: 81px;
+    height: 72px;
+    flex-shrink: 0;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+.menu-items a {
+    padding: 30px !important ;
+    text-decoration: none;
+    color: #002b2e;
+}
+.button-header,
+.button-header1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divider-icon {
+    width: 1px;
+    height: 38px;
+}
+.button, .button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    padding: 10px 24px;
+    border-radius: 4px;
+}
+.button {
+    background-color: #002b2e;
+    color: white;
+}
+.button1 {
+    border: 1px solid #002b2e;
+    color: #002b2e;
+}
+.buttons {
+    display: flex;
+    gap: 16px;
+}
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    gap: 100px;
+}
+.hamburger-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1001; /* Para que siempre estÃ© encima del contenido */
+    position: relative;
+}
+.sidebar-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #002b2e;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+    z-index: 1000;
+}
+.sidebar-menu a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar-menu .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 36px;
+}
+.sidebar-menu .button, .sidebar-menu .button1 {
+    margin: 10px auto;
+}
+/*seccion header*/
+
+
+
+/*inicia la seccion de estilos de seccion hero*/
+.group-icon1 {
+    position: absolute;
+    height: 30.28%;
+    width: 54.02%;
+    top: 48.34%;
+    right: 23.14%;
+    bottom: 21.37%;
+    left: 22.84%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.logos {
+    width: 627px;
+    position: absolute;
+    margin: 0 !important;
+    top: 180px;
+    left: 0px;
+    height: 354px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.arrowsright-arrow-icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.button-hero {
+    width: 263px;
+    margin: 0 !important;
+    position: absolute;
+    top: 534px;
+    left: 80px;
+    border-radius: 4px;
+    background-color: #002b2e;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px 10px 24px;
+    box-sizing: border-box;
+    gap: 8px;
+    z-index: 2;
+}
+.hero {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 813px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Suisse Int\'l';
+}
+.hero-img-icon {
+    width: 100%;
+    position: relative;
+    height: 813px;
+    object-fit: cover;
+    z-index: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.hero, .content, .nosotros, .team-member-metodologia {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/*Termina el css de la seccion de HERO*/
+
+/*Comienza la seccion de estilos de Nosotros*/
+.component-1-icon {
+    align-self: stretch;
+    width: 481px;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+}
+.about {
+    position: relative;
+    line-height: 120%;
+}
+.somos-la-aceleradora {
+    margin: 0;
+}
+.somos-la-aceleradora-container {
+    position: relative;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: justify !important;
+}
+.heading {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+.component-1-icon1 {
+    width: 751px;
+    position: relative;
+    height: 315px;
+    object-fit: cover;
+}
+.h3-feature-title1 {
+    width: 134px;
+    position: relative;
+    line-height: 120%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.paragraph {
+    position: relative;
+    font-size: 20px;
+    line-height: 120%;
+}
+.h3-feature-title1-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.paragraph1 {
+    width: 184px;
+    position: relative;
+    font-size: 20px;
+    line-height: 120%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.paragraph2 {
+    width: 184px;
+    position: relative;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: left;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.h3-feature-title1-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+    text-align: center;
+}
+.info {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 42px;
+    color: #97a5af;
+}
+.body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.content1 {
+    width: auto !important;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 80px;
+    overflow-y: hidden !important;
+}
+.presentes-tambin-en {
+    align-self: stretch;
+    position: relative;
+    line-height: 120%;
+}
+.heading1 {
+    width: 1312px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/*este nombre de estilo tanto en la seccion de header como en la seccion de nosotros se repite, procurar llamar de distinta manera los nombres de los estilos*/
+/*.logos-icon {
+    width: 237px;
+    position: relative;
+    height: 57px;
+    overflow: hidden;
+    flex-shrink: 0;
+}*/
+.logos-icon-nosotros{
+    width: 237px;
+    position: relative;
+    height: 57px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.contents {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 48px;
+}
+.articulo {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 80px 64px;
+    text-align: center;
+    font-size: 34px;
+}
+.content {
+    position: static !important;
+    top: 100px;
+    left: 0px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.nosotros {
+    padding: 40px 20px; /* Ajusta los valores de padding como necesites */
+    width: 100%;
+    position: relative;
+    height: 1064px;
+    text-align: left;
+    font-size: 48px;
+    color: #182128;
+    font-family: 'Suisse Int\'l';
+    overflow-y: hidden !important;
+}
+
+/*aqui termina la seccion de estilos de nosotros*/
+
+
+/*Aqui inicia la seccion de estilos de Team Member*/
+.bg-icon-team-member {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%; /* Asegurarse que la imagen de fondo abarque todo el contenedor */
+    height: 675px;
+    z-index: -1; /* Para que no sobreponga a otros elementos */
+}
+.nuestros-directivos {
+    font-size: 42px;
+    font-weight: bold;
+    color: #182128;
+}
+.somos-un-lugar {
+    font-size: 18px;
+    line-height: 120%;
+    color: #737583;
+}
+.heading1-team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.label {
+    position: relative;
+}
+.button-team-member .label {
+    font-size: 16px;
+    color: #002b2e;
+    margin-right: 8px;
+}
+.arrowsright-arrow-icon-team-member {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.button-team-member {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    background-color: #e0f7fa;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.heading-team-member {
+    width: 100%; /* Abarca el ancho total de su contenedor */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.team-member-photo {
+    align-self: stretch;
+    max-width: 100%;
+    overflow: hidden;
+    height: 424px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.rodolfo-isaac-garca {
+    font-size: 18px;
+    color: #002b2e;
+    font-weight: bold;
+}
+.name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.name img {
+    width: 24px;
+    height: 24px;
+}
+.fundador-y-director {
+    font-size: 16px;
+    color: #6e808e;
+}
+.info {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.team-member-carddefault1 {
+    width: 310px;
+    height: 508px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.team-member-card {
+    flex-basis: 23%; /* Controlar el ancho de las tarjetas en relaciÃ³n con el contenedor */
+    max-width: 310px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    text-align: left;
+}
+.team-member-card img.team-member-photo {
+    width: 100%;
+    height: 424px;
+    object-fit: cover;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten y cambien de lÃ­nea en pantallas mÃ¡s pequeÃ±as */
+    justify-content: space-between;
+    gap: 24px; /* AÃ±adir espacio entre las tarjetas */
+    width: 100%;
+    margin: 0 auto;
+}
+.team {
+    position: relative; /* Cambiado a relative para evitar que se salga del flujo del diseÃ±o */
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 56px 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+.team-member {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 828px;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 42px;
+    color: #182128;
+    font-family: 'Suisse Int\'l';
+}
+
+/*Aqui termina la seccion de estilos de TeamMember*/
+
+/*Aqui inicia la seccion de estilos de metodologias*/
+
+.team-member-child {
+    position: absolute;
+    top: 28px;
+    left: 1177px;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    width: 456px;
+    height: 456px;
+}
+
+.vertical-container-child {
+    position: absolute;
+    top: 35px !important;
+    left: -35px !important;
+    width: 1180px;
+    height: 435px;
+}
+.text-justificado {
+    text-align: justify;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.text-input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 64px;
+    height: 64px;
+}
+.vertical-container4 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 10px;
+    background-color: #182128;
+    width: 23px;
+    height: 23px;
+}
+.vertical-container3 {
+    position: absolute;
+    top: 0px;
+    left: 69px;
+    width: 64px;
+    height: 64px;
+}
+.div-metodologia {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 204px;
+    font-weight: 900;
+    opacity: 0.24;
+}
+.cliente {
+    align-self: stretch;
+    position: relative;
+    line-height: 120%;
+}
+.conexin-inmediata-con-container {
+    align-self: stretch;
+    position: relative;
+    font-size: 14px;
+    line-height: 120%;
+    color: #80919d;
+    text-align: justify;
+}
+.paragraph-container {
+    width: 248px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4px 0px 0px;
+    box-sizing: border-box;
+    gap: 8px;
+    font-size: 22px;
+    color: #182128;
+    font-family: 'Suisse Int\'l';
+}
+.metodologa {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 19px;
+}
+.vertical-container2 {
+    position: absolute;
+    top: 364px;
+    left: 0px;
+    width: 349px;
+    height: 291px;
+}
+.vertical-container6 {
+    position: absolute;
+    top: 0px;
+    left: 58px;
+    width: 64px;
+    height: 64px;
+}
+.vertical-container5 {
+    position: absolute;
+    top: 251px;
+    left: 450px !important;
+    width: 374px;
+    height: 295px;
+}
+.vertical-container9 {
+    position: absolute;
+    top: 0px;
+    left: 31px;
+    width: 64px;
+    height: 64px;
+}
+.paragraph-container2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4px 0px 0px;
+    gap: 8px;
+    font-size: 22px;
+    color: #182128;
+    font-family: 'Suisse Int\'l';
+}
+.metodologa2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 331px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 19px;
+}
+.vertical-container8 {
+    position: absolute;
+    top: 70px !important;
+    left: 870px !important;
+ 
+}
+.vertical-container1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1312px;
+    height: 655px;
+}
+.vertical-container {
+    position: absolute;
+    top: 126px;
+    left: 64px;
+    width: 1312px;
+    height: 655px;
+}
+.a-travs-de {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    line-height: 120%;
+    color: #737583;
+    text-align: justify;
+}
+.info-metodologia {
+    position: absolute;
+    top: 96px;
+    left: 64px;
+    width: 756px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    font-size: 42px;
+    color: #182128;
+    font-family: 'Suisse Int\'l';
+}
+.team-member-metodologia{
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 828px;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 204px;
+    color: #000;
+    font-family: Poppins;
+}
+.te-ayudamos-a {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 505px);
+    line-height: 120%;
+}
+/*Inicia la seccion de CTA*/
+.cta {
+    width: 100%;
+    position: relative;
+    height: 340px;
+    background-image: url('/images/CTA.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: left;
+    font-size: 42px;
+    color: #fff;
+    font-family: 'Suisse Int\'l';
+}
+/*Termina la seccion de CTA*/
+
+/*Inicia la seccion de Testimonios*/
+.nuestra-comunidad {
+    align-self: stretch;
+    position: relative;
+    line-height: 120%;
+}
+
+.lo-que-comentan {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    line-height: 120%;
+    color: #6e808e;
+}
+
+.heading-testimonios {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.image-2-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 520px;
+    height: 520px;
+    object-fit: cover;
+}
+.logo-icon {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    border-radius: 0px 0px 10px 10px;
+    width: 142px;
+    height: 80px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.container-child-testimonios {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 100px;
+    background-color: #182128;
+    width: 8px;
+    height: 104px;
+}
+.lance-miller {
+    position: relative;
+    line-height: 120%;
+}
+.ceo-co-founder {
+    position: relative;
+    font-size: 14px;
+    line-height: 120%;
+}
+.lance-miller-parent {
+    position: absolute;
+    top: calc(50% - 41px);
+    left: 8px;
+    backdrop-filter: blur(20px);
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgba(12, 15, 32, 0.4);
+    width: 352px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px 18px;
+    box-sizing: border-box;
+    gap: 12px;
+}
+.container-testimonios {
+    position: absolute;
+    top: 384px;
+    left: 40px;
+    width: 360px;
+    height: 104px;
+    overflow: hidden;
+}
+.avplay-circle-filled-icon {
+    position: absolute;
+    top: calc(50% - 51px);
+    left: calc(50% - 52px);
+    width: 103px;
+    height: 103px;
+    overflow: hidden;
+}
+.video {
+    width: 520px;
+    position: relative;
+    border-radius: 8px;
+    height: 520px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.historias-ejecutivas {
+    position: relative;
+    letter-spacing: 0.32em;
+    line-height: 120%;
+    font-weight: 600;
+}
+.lorem-ipsum-dolor {
+    width: 456px;
+    position: relative;
+    line-height: 169%;
+    font-family: 'Suisse Int\'l';
+    text-align: justify;
+    display: inline-block;
+}
+.text-testimonios {
+    width: 576px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #1d1d1d;
+    height: 388px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 56px;
+    box-sizing: border-box;
+    gap: 32px;
+    font-size: 16px;
+    font-family: 'Suisse Int\'l Trial';
+}
+.testimonial {
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.1));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.contenedor {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 84.1px;
+    height: 24px;
+}
+.frame-child {
+    position: static !important;
+    top: 0px;
+    left: 24px;
+    border-radius: 10px;
+    background-color: #dce1e4;
+    width: 8px;
+    height: 8px;
+}
+.frame-item {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    border-radius: 10px;
+    background-color: #dce1e4;
+    width: 8px;
+    height: 8px;
+}
+.frame-inner {
+    position: absolute;
+    top: 0px;
+    left: 56px;
+    border-radius: 10px;
+    background-color: #dce1e4;
+    width: 8px;
+    height: 8px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 0px;
+    left: 72px;
+    border-radius: 10px;
+    background-color: #dce1e4;
+    width: 8px;
+    height: 8px;
+}
+.frame-child1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: #182128;
+    width: 16px;
+    height: 8px;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 8px;
+    left: 2.03px;
+    width: 80px;
+    height: 8px;
+}
+.slide {
+    width: 84.1px;
+    position: relative;
+    height: 24px;
+}
+.testimonios1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+}
+.logos-comunidad-icon {
+    width: 150px;
+    position: relative;
+    height: 120px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.group-icon {
+    position: absolute;
+    height: 17.09%;
+    width: 64.62%;
+    top: 34.39%;
+    right: 16.96%;
+    bottom: 48.52%;
+    left: 18.43%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.group-icon1-testimonios {
+    position: absolute;
+    height: 8.06%;
+    width: 66.15%;
+    top: 55.94%;
+    right: 15.67%;
+    bottom: 36%;
+    left: 18.17%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.logos-comunidad {
+    width: 169px;
+    position: relative;
+    height: 134px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.logos-comunidad-icon1 {
+    width: 212px;
+    position: relative;
+    height: 170px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.logos-comunidad-icon2 {
+    width: 190px;
+    position: relative;
+    height: 152px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.group-icon2 {
+    position: absolute;
+    height: 21.91%;
+    width: 48.53%;
+    top: 30.55%;
+    right: 24.94%;
+    bottom: 47.54%;
+    left: 26.53%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.group-icon3 {
+    position: absolute;
+    height: 6.45%;
+    width: 64.11%;
+    top: 57.66%;
+    right: 17.83%;
+    bottom: 35.89%;
+    left: 18.06%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.group-icon4 {
+    position: absolute;
+    height: 14.61%;
+    width: 62.23%;
+    top: 35.79%;
+    right: 18.44%;
+    bottom: 49.61%;
+    left: 19.32%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.group-icon5 {
+    position: absolute;
+    height: 6.18%;
+    width: 48.88%;
+    top: 54.83%;
+    right: 25.62%;
+    bottom: 38.98%;
+    left: 25.5%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.logos-comunidad2 {
+    width: 215px;
+    position: relative;
+    height: 152px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.logos-comunidad-icon3 {
+    width: 143px;
+    position: relative;
+    height: 108.1px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.logos-comunidad-icon4 {
+    width: 143px;
+    position: relative;
+    height: 76.5px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.logos-comunidad-icon5 {
+    width: 143px;
+    position: relative;
+    height: 57.6px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.logos-comunidad-icon6 {
+    width: 135px;
+    position: relative;
+    height: 36px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.logos-comunidad-icon7 {
+    width: 135px;
+    position: relative;
+    height: 48px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.logos-comunidad-icon8 {
+    width: 135px;
+    position: relative;
+    height: 86px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.logos-comunidad-icon9 {
+    width: 135px;
+    position: relative;
+    height: 43px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.logos-comunidad-icon10 {
+    width: 165px;
+    position: relative;
+    height: 72.9px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.logos-comunidad-icon11 {
+    width: 135px;
+    position: relative;
+    height: 98px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.logos-comunidad-icon12 {
+    width: 135px;
+    position: relative;
+    height: 57px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.logos-comunidad-icon13 {
+    width: 135px;
+    position: relative;
+    height: 92px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.logos-comunidad-icon14 {
+    width: 135px;
+    position: relative;
+    height: 135px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.logos-comunidad-icon15 {
+    width: 135px;
+    position: relative;
+    height: 60px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.logos-comunidad-icon16 {
+    width: 135px;
+    position: relative;
+    height: 91.3px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.content-testimonios {
+    flex: 1;
+    overflow-x: hidden !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 2px;
+    gap: 24px;
+}
+.arrowsright-arrow-icon-testimonios {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.icon-button {
+    border-radius: 100px;
+    background-color: #f5f7f9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+.logos-testimonios {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.testimonios {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 124px 64px 80px;
+    box-sizing: border-box;
+    gap: 64px;
+    text-align: center;
+    font-size: 42px;
+    color: #182128;
+    font-family: 'Suisse Int\'l';
+}
+
+/*Comienza a seccion de estilos de contactanos*/
+.bg-icon-contacto {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 841px;
+}
+.forma-parte-de {
+    width: 560px;
+    position: relative;
+    line-height: 120%;
+    display: inline-block;
+}
+.nuestro-equipo-se {
+    align-self: stretch;
+    position: relative;
+    font-size: 22px;
+    line-height: 120%;
+    font-family: 'Suisse Int\'l';
+    opacity: 0.7;
+}
+.heading-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.contents-contacto {
+    position: absolute;
+    top: 300px;
+    left: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.inicia-tu-proceso {
+    align-self: stretch;
+    position: relative;
+    line-height: 120%;
+}
+.heading1-contacto {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 27px;
+}
+.label-contacto {
+    position: relative;
+    line-height: 120%;
+}
+.label-telefono {
+    position: relative;
+    font-size: 12px;
+    line-height: 120%;
+    font-family: 'Suisse Int\'l';
+    color: #182128;
+    text-align: left;
+}
+.info-contacto {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.text-input1 {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #bac3ca;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 14px;
+}
+.text-input-contacto {
+    align-self: stretch;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.label2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 0px 0px 4px;
+}
+.flags-mobile-icon {
+    width: 28px;
+    position: relative;
+    height: 19px;
+}
+.div-contacto {
+    flex: 1;
+    position: relative;
+    line-height: 120%;
+}
+.country {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.arrowsdown-chevron-icon {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.input1-contacto {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #bac3ca;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
+    gap: 8px;
+}
+.code {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.text-icon {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.text-area {
+    align-self: stretch;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #bac3ca;
+    box-sizing: border-box;
+    height: 48px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
+}
+.input2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #ababab;
+}
+.input-contacto {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 16px;
+}
+.phone-input {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+    font-size: 12px;
+    color: #182128;
+}
+.label4 {
+    position: relative;
+}
+.cloud-and-webupload {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.icon-frame {
+    width: 44px;
+    border-radius: 50px;
+    background-color: #f1faff;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+    box-sizing: border-box;
+}
+.text-contacto {
+    position: relative;
+    line-height: 120%;
+}
+.text1-contacto {
+    position: relative;
+    color: #666600;
+}
+.action {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.supporting-text {
+    align-self: stretch;
+    position: relative;
+    font-size: 10px;
+    line-height: 120%;
+    color: #737583;
+    text-align: center;
+}
+.text-and-supporting-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+}
+.content-contacto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.upload-zone {
+    width: 100%;
+    position: relative;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 1px dashed #dce1e4;
+    box-sizing: border-box;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    text-align: left;
+    font-size: 14px;
+    color: #182128;
+    font-family: 'Suisse Int\'l';
+}
+.file-upload {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    font-size: 14px;
+    color: #182128;
+}
+.info2 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 0;
+}
+.text-input5 {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px 14px;
+    position: relative;
+    gap: 16px;
+}
+.text-contacto {
+    position: relative;
+    line-height: 120%;
+}
+.text-input4 {
+    align-self: stretch;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.state-layer {
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+.checkboxes-base {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    box-sizing: border-box;
+}
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 8px 0px 0px;
+    font-size: 14px;
+    color: #182128;
+}
+.from {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    text-align: left;
+    color: #ababab;
+}
+.button-contacto {
+    align-self: stretch;
+    border-radius: 4px;
+    background-color: #e5e5e5;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 24px;
+    box-sizing: border-box;
+    color: #a3afb8;
+}
+.contact-form {
+    position: absolute;
+    top: 80px;
+    left: 620px !important;
+    box-shadow: 0px 8px 24px rgba(6, 28, 61, 0.12);
+    border-radius: 24px;
+    background-color: #fff;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 48px;
+    box-sizing: border-box;
+    gap: 24px;
+    font-size: 16px;
+    color: #182128;
+    font-family: 'Suisse Int\'l';
+}
+.contact {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 1003px;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+    font-family: 'Suisse Int\'l Trial';
+}
+/*Termina la seccion de estilos de contacto */
+
+
+/*inicia la sesion de estilos de footer*/
+.divider-icon-footer {
+    width: 100%;
+    position: relative;
+    max-height: 100%;
+}
+.consolida-capital {
+    position: relative;
+    line-height: 120%;
+}
+.todos-los-derechos {
+    position: relative;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+}
+.column-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.redes-sociales {
+    position: relative;
+    font-size: 20px;
+    line-height: 120%;
+}
+.button-header-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.site-map {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 18px;
+}
+.legales {
+    align-self: stretch;
+    position: relative;
+    font-size: 20px;
+    line-height: 120%;
+}
+.button-header3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button-header4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logos-icon-footer {
+    width: 64px;
+    position: relative;
+    height: 64px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.site-map1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 14px;
+}
+.contents-footer {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 40px 0px 16px;
+}
+.footerv2 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 80px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 34px;
+    color: #182128;
+    font-family: 'Suisse Int\'l';
+}
+/*termina la seccion de estilos de footer*/
+
+
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+    .hamburger-icon {
+        display: block;
+    }
+}

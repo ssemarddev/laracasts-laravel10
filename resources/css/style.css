@@ -1,0 +1,992 @@
+.hero-section {
+    background-image: url('/images/logo/hero-img-portada.png'); /* Ruta correcta desde el directorio pÃºblico */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    display: flex;
+    align-items: center; /* Centra el contenido verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    position: relative;
+    color: #fff; /* Texto en blanco para contraste */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(250, 248, 248, 0.342); /* Filtro oscuro para mejorar la legibilidad del texto */
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2; /* Asegura que el contenido estÃ© por encima del filtro */
+    max-width: 600px;
+    padding: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #8a8a2b; /* Color del botÃ³n */
+    padding: 10px 20px;
+    color: #ffffff4d;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #656520; /* Cambio de color en hover */
+}
+
+.nosotros-section {
+    background-image: url('/images/logo/logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px 0; /* Aumenta el padding para hacer la secciÃ³n mÃ¡s alta */
+    color: #fff;
+    text-align: left;
+    position: relative;
+}
+
+.nosotros-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+
+.nosotros-section {
+    background-image: url('/images/logo/Nosotros.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px; /* Establece una altura fija mayor */
+    color: #fff;
+    text-align: left;
+    position: relative;
+}
+
+.nosotros-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(119, 117, 117, 0.5);
+    z-index: 1;
+}
+
+.nosotros-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 100%; /* Para asegurarte de que el contenido estÃ© centrado en toda la altura */
+}
+
+
+.nosotros-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(228, 228, 228, 0.192);
+    z-index: 1;
+}
+
+.nosotros-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 300px;
+}
+
+.stat-item {
+    text-align: center;
+    flex: 1;
+}
+
+.stat-number {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.stat-description {
+    margin-top: 5px;
+    font-size: 1em;
+    color: #bbb;
+}
+
+.hero-section-separator {
+    height: 50px; /* Ajusta la altura del separador segÃºn sea necesario */
+   
+}
+
+.center-content {
+    display: flex; /* Activa el uso de flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100%; /* Asegura que el contenedor tome toda la altura disponible */
+    width: 100%; /* Asegura que el contenedor tome todo el ancho disponible */
+}
+
+
+.outer-container {
+    height: 100vh; /* Ocupa toda la altura de la ventana del navegador */
+    width: 100vw; /* Ocupa todo el ancho de la ventana del navegador */
+    background-color: #f0f0f0; /* Fondo del contenedor externo */
+}
+
+.center-content-grid {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.team-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.team-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.team-section p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member {
+    flex: 1 1 calc(25% - 20px); /* Ajusta el ancho de cada miembro del equipo */
+    max-width: calc(25% - 20px);
+    box-sizing: border-box;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.team-info {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.team-info p {
+    font-size: 1em;
+    color: #f8f7f7;
+    margin: 5px 0;
+}
+.banner-section {
+    background-image: url('/images/logo/banner.png'); /* Ruta de tu imagen en el directorio pÃºblico */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 30vh; /* Ocupa toda la altura de la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, filter 0.3s ease;
+}
+
+
+
+.banner-content {
+    color: rgb(255, 255, 255); /* Texto en blanco para contraste */
+    text-align: center;
+    padding: 20px;
+}
+
+.banner-content h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+    transition: color 0.3s ease;
+}
+
+
+.testimonial-carousel {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #cecece; /* Fondo oscuro para contraste */
+    color: #fff;
+}
+
+.testimonial-carousel h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.testimonial-carousel p {
+    font-size: 1.2em;
+    color: #a0a0a0;
+    margin-bottom: 40px;
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.carousel-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(187, 179, 179, 0.5); /* Fondo semitransparente */
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.carousel-item:hover .carousel-overlay {
+    opacity: 1;
+}
+
+.play-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.carousel-info p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.carousel-info span {
+    font-size: 1em;
+    color: #ccc;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    transform: translateY(-50%);
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.carousel-indicators {
+    text-align: center;
+    margin-top: 2px;
+}
+
+.carousel-indicators .dot {
+    cursor: pointer;
+    height: 5px;
+    width: 5px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.carousel-indicators .dot.active {
+    background-color: #717171;
+}
+
+
+.logo-slider {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.slider-container {
+    display: flex;
+    width: 20%; /* Ajusta esto segÃºn el nÃºmero de logotipos */
+    animation: slide 20s linear infinite;
+}
+
+.slide {
+    flex: 0 0 auto;
+    width: 65%; /* Ajusta el tamaÃ±o segÃºn el nÃºmero de logotipos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide img {
+    max-width: 300%;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%); /* Mueve el contenedor a la izquierda */
+    }
+}
+.testimonial-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.testimonial-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.testimonial-section p {
+    font-size: 1.2em;
+    color: #a0a0a0;
+    margin-bottom: 40px;
+}
+
+.testimonial-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonial-content {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.testimonial-item {
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.testimonial-item video {
+    width: 60%;
+    border-radius: 10px;
+}
+
+.testimonial-description {
+    width: 40%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.testimonial-description h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.testimonial-description p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    user-select: none;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.carousel-indicators {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-indicators .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #242121;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.carousel-indicators .dot.active {
+    background-color: #272626;
+}
+.testimonial-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #000;
+    color: #393636;
+}
+
+.testimonial-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.testimonial-section p {
+    font-size: 1.2em;
+    color: #1e1d1d;
+    margin-bottom: 40px;
+}
+
+.testimonial-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonial-content {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.testimonial-item {
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.testimonial-item video {
+    width: 60%;
+    border-radius: 10px;
+}
+
+.testimonial-description {
+    width: 40%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.testimonial-description h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.testimonial-description p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgba(6, 151, 16, 0.5);
+    border: none;
+    user-select: none;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(228, 214, 214, 0.8);
+}
+
+.carousel-indicators {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-indicators .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #141313;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.carousel-indicators .dot.active {
+    background-color: #717171;
+}
+.testimonial-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #1f1c1c;
+    color: #fff;
+}
+
+.testimonial-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.testimonial-section p {
+    font-size: 1.2em;
+    color: #a0a0a0;
+    margin-bottom: 40px;
+}
+
+.testimonial-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonial-content {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.testimonial-item {
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.testimonial-item video {
+    width: 60%;
+    border-radius: 10px;
+}
+
+.testimonial-description {
+    width: 40%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.testimonial-description h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.testimonial-description p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgba(253, 255, 253, 0.5);
+    border: none;
+    user-select: none;
+}
+
+.next {
+    right: 10px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(253, 253, 253, 0.8);
+}
+
+.carousel-indicators {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-indicators .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.carousel-indicators .dot.active {
+    background-color: #717171;
+}
+.spacer-section {
+    padding: 10px 0 20px;
+    width: 100%;
+    background-color: transparent; /* Asegura que el separador no tenga color de fondo */
+}
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #000; /* Fondo negro para el lado izquierdo */
+    color: #fff;
+}
+
+.contact-content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #f9f9f9; /* Fondo blanco para el lado derecho */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.contact-left {
+    flex: 1;
+    padding: 40px;
+    background-color: #1a1a1a; /* Fondo mÃ¡s oscuro para el texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact-left h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact-left p {
+    font-size: 1.2em;
+}
+
+.contact-right {
+    flex: 1;
+    padding: 40px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-form h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+.contact-form .phone-field {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-form .file-upload {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form .file-upload label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form .file-upload input[type="file"] {
+    display: none;
+}
+
+.contact-form .checkbox-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-form .checkbox-field label {
+    margin-left: 10px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.contact-form button {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #333;
+}
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+}
+
+.footer-logo img {
+    max-height: 60px; /* Ajusta el tamaÃ±o del logo */
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    color: #fff;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #555;
+}
+
+.footer-divider {
+    border-top: 1px solid #444;
+    margin: 20px 0;
+}
+
+.footer-bottom {
+    font-size: 0.9em;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+    color: #ccc;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+.login-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.login-card {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.brand-logo img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.btn {
+    background-color: #004aad;
+    border: none;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #003a8c;
+}
+
+.invalid-feedback {
+    color: red;
+    font-size: 0.9em;
+}
